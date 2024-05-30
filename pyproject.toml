@@ -1,6 +1,28 @@
 [project]
-name = "placeholder"
+name = "magpi"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Jonathan Demirgian"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/Quidge/magpi"
+Changelog = "https://github.com/Quidge/magpi/releases"
+Issues = "https://github.com/Quidge/magpi/issues"
+CI = "https://github.com/Quidge/magpi/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
